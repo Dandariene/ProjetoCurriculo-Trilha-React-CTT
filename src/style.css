@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f7f7;
+  color: #444;
+}
+
+header {
+  background-color: #3b5998;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.logo img {
+  width: 150px;
+  margin: 10px;
+  margin-right: 5px;
+}
+
+.perfil {
+  margin-right: 50px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.post-list {
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.post-item {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 1.2em;
+  border-radius: 5px;
+  box-shadow: 1px 1px 20px #ddd;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.dados span {
+  font-size: 11px;
+  color: #888;
+}
+
+.avatar img {
+  border-radius: 100%;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.post-content {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+
+.commment {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.comment-avatar img {
+  width: 35px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.comment-inner {
+  background: #f4f4f4;
+  border-radius: 20px;
+  padding: 10px 15px 15px;
+}
